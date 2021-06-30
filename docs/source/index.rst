@@ -3,23 +3,34 @@ High Performance Computing (HPC) at UKAEA
 
 .. toctree::
    :maxdepth: 2
-   :caption: Getting started:
+   :caption: What is HPC
    
-   pages/archi
+   pages/what_hpc
 
 .. toctree::
    :maxdepth: 2
-   :caption: Setting Up:
-
-   pages/access
-   pages/login
+   :caption: Mission 
+   
+   pages/mission
 
 .. toctree::
    :maxdepth: 2
-   :caption: Using CSD3 
+   :caption: Resources
 
-   pages/launch
+   pages/freira 
+   pages/cumulus
+   pages/csd3  
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Applications
+   
    pages/apps
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Troubleshooting
+   
    pages/trouble
    
 Links
