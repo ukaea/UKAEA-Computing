@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'CSD3'
-copyright = '2021, Julita Inca'
-author = 'Julita Inca'
+copyright = '2021, UKAEA'
+author = 'UKAEA'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'

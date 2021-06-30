@@ -1,5 +1,5 @@
-Welcome to High Performance Computing (HPC) resources at UKAEA
---------------------------------------------------------------
+High Performance Computing (HPC) resources at UKAEA
+---------------------------------------------------
 
 .. toctree::
    :maxdepth: 2
