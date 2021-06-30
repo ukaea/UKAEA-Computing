@@ -1,10 +1,7 @@
 .. _appis:
 
-Applications
-============
-
 MOOSE
------
+=====
 
 * Make sure of the spelling of the names and location of the folders.
 

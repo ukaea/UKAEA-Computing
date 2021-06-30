@@ -1,4 +1,12 @@
 .. _whathpcis:
 
-What is HPC
------------
+Brief HPC History
+=================
+
+
+Definition of HPC
+=================
+
+
+Clusters and supercomputers
+===========================

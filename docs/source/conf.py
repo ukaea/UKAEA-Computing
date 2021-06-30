@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'CSD3'
+project = 'UKAEA computing'
 copyright = '2021, UKAEA'
 author = 'UKAEA'
 

@@ -9,7 +9,7 @@ High Performance Computing (HPC) at UKAEA
 
 .. toctree::
    :maxdepth: 2
-   :caption: Mission 
+   :caption: Advanced Computing 
    
    pages/mission
 

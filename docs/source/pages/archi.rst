@@ -6,7 +6,7 @@ Architecture
 Hardware
 --------
 The relevant cluster for UKAEA is the **Cascade Lake** cluster. 
-This consists of **672 nodes**, each containing 2 sockets, each with 
+Currently, this consists of **672 nodes**, each containing 2 sockets, each with 
 Intel Xeon Platinum 8276 CPU @ 2.20GHz (i.e. 56 CPU cores in total
 per node), **192 GB of memory**, Mellanox HDR100 interconnect.
  
