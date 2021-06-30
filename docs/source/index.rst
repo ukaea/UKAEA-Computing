@@ -1,5 +1,5 @@
-Welcome to CSD3's documentation
--------------------------------
+Welcome to High Performance Computing (HPC) resources at UKAEA
+--------------------------------------------------------------
 
 .. toctree::
    :maxdepth: 2
