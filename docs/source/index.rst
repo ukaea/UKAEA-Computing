@@ -17,7 +17,7 @@ High Performance Computing (HPC) at UKAEA
    :maxdepth: 2
    :caption: Resources
 
-   pages/freira 
+   pages/freia 
    pages/cumulus
    pages/csd3  
 

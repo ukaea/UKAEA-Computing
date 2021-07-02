@@ -48,3 +48,5 @@ It is recommendable to create the mesh first before run execution.
 
    mpirun -n 8 -npernode 56 /home/ir-inca1/projects/pooka/pooka-opt  -i input.i  --split-mesh 112,224,336,448 --split-file hpcmesh10240.cpr >> mg_th_NE_mpi10240.out -log_view
 
+NekRS-and-Nek5000
+=================
