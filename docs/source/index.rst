@@ -16,9 +16,7 @@ High Performance Computing (HPC) at UKAEA
 .. toctree::
    :maxdepth: 2
    :caption: Resources
-
-   pages/freia 
-   pages/cumulus
+   
    pages/csd3  
 
 .. toctree::
