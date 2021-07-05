@@ -32,7 +32,7 @@ Brief HPC History
      - 1994
    * - ASCI Red
      - 1.068 TeraFLOP/s
-     - 9,632 Pentium II Over-Drive
+     - 9,632 PentiumII Over-Drive
      - 1,212 GB
      - 1997
    * - IBM Roadrunner
@@ -59,15 +59,17 @@ Brief HPC History
      - Processors
      - Memory
      - Year
-   * - ARCHER
+   * - `ARCHER <https://www.archer.ac.uk>`_
      - 2.551 PetaFLOPS
      - 118,080 cores
      - 331 TiB
      - 2020
-   * - Cirrus
+   * - `Cirrus <https://www.cirrus.ac.uk/>`_
      - 1.068 TeraFLOP/s
-     - 10,080 cores
-     - GB
+     - | 10,080 CPUs + GPU nodes:
+       | 144 GPUs and 1440 CPUs
+     - | CPUs: 256 GB of memory shared
+       | GPUs: 384 GB of memory shared 
      - 2020
 
 * **At UAKEA**
