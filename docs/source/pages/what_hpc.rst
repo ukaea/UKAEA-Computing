@@ -5,7 +5,7 @@ Definition of HPC
 
 "High Performance Computing most generally refers to the practice of aggregating computing power
 in a way that delivers much higher performance than one could get out of a typical desktop computer 
-or workstation in order to solve large problems in science, engineering, or business."
+or workstation in order to solve large problems in science, engineering, or business." `* <https://insidehpc.com/2015/10/hpc-in-the-cloud>`_
 
 Brief HPC History
 =================
