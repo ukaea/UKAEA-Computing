@@ -3,6 +3,15 @@
 MOOSE
 =====
 
+MOOSE computationally solves PDEs by configuring the mesh of the domain, boundary conditions, variables and kernels and preconditioners in the input file.
+
+Basically, there are two main steps to perfom them, one is the splitting part, and the other is the execution part to solve the Finite Element Problem.
+
+Then, it is recommendable to create the mesh first before run execution. The corresponding command is as follows:
+
+``mpirun -n 8 -npernode 56 /home/ir-inca1/projects/pooka/pooka-opt  -i input.i  --split-mesh 112,224,336,448 --split-file hpcmesh5120.cpr >> ja_th_NE_mpi5120.out -log_view``
+
+
 * Make sure of the spelling of the names and location of the folders.
 
 * Try to not use more than eith caracters for the jobname. 
@@ -38,15 +47,24 @@ MOOSE
         	mpirun -n $SLURM_NTASKS /home/ir-inca1/projects/pooka/pooka-opt --n-threads=$OMP_NUM_THREADS -i /rds/project/iris_vol2/rds-ukaea-ap001/prec_study/inputs/hypre/fluid3D/NEWTON/4/input.i >> hy_fl_NE_$i.out -log_view
         done
 
-The simulation of multiphysics phenomena in MOOSE are too dense. 
+.. warning::
 
-It is recommendable to create the mesh first before run execution.
+        * Make sure of the spelling of the names and location of the folders.
 
-*An MPI example script to create a mesh file to be later use for calculations:*
+        * Try to not use more than eith caracters for the jobname. 
 
-.. code-block:: bash
+        * Load the corresponding modules in the script to make MOOSE works.
 
-   mpirun -n 8 -npernode 56 /home/ir-inca1/projects/pooka/pooka-opt  -i input.i  --split-mesh 112,224,336,448 --split-file hpcmesh10240.cpr >> mg_th_NE_mpi10240.out -log_view
+        * Configure the environment and the resource limit in the script.
+
+        * Make sure of the spelling of the names and location of the folders.
+
+        * Try to not use more than eith caracters for the jobname. 
+
+        * Load the corresponding modules in the script to make MOOSE works.
+
+        * Configure the environment and the resource limit in the script.
+
 
 NekRS-and-Nek5000
 =================
