@@ -7,20 +7,16 @@ MOOSE computationally solves PDEs by configuring the mesh of the domain, boundar
 
 Basically, there are two main steps to perfom them, one is the splitting part, and the other is the execution part to solve the Finite Element Problem.
 
-Then, it is recommendable to create the mesh first before run execution. The corresponding command is as follows:
+Then, it is recommendable to create the mesh first before run execution. 
 
-``mpirun -n 8 -npernode 56 /home/ir-inca1/projects/pooka/pooka-opt  -i input.i  --split-mesh 112,224,336,448 --split-file hpcmesh5120.cpr >> ja_th_NE_mpi5120.out -log_view``
+*An MPI line command to split the mesh in MOOSE*
+
+.. code-block:: bash
+ 
+        mpirun -n 8 -npernode 56 /home/ir-inca1/projects/pooka/pooka-opt  -i input.i  --split-mesh 112,224,336,448 --split-file hpcmesh5120.cpr >> ja_th_NE_mpi5120.out -log_view
 
 
-* Make sure of the spelling of the names and location of the folders.
-
-* Try to not use more than eith caracters for the jobname. 
-
-* Load the corresponding modules in the script to make MOOSE works.
-
-* Configure the environment and the resource limit in the script.
-
-*An MPI example script to run input file of MOOSE ten times*
+*An MPI script example to run input file of MOOSE ten times*
 
 .. code-block:: bash
 
@@ -48,14 +44,6 @@ Then, it is recommendable to create the mesh first before run execution. The cor
         done
 
 .. warning::
-
-        * Make sure of the spelling of the names and location of the folders.
-
-        * Try to not use more than eith caracters for the jobname. 
-
-        * Load the corresponding modules in the script to make MOOSE works.
-
-        * Configure the environment and the resource limit in the script.
 
         * Make sure of the spelling of the names and location of the folders.
 
