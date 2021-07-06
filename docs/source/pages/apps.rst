@@ -7,7 +7,7 @@ MOOSE computationally solves PDEs by configuring the mesh of the domain, boundar
 
 Basically, there are two main steps to perfom them, one is the splitting part, and the other is the execution part to solve the Finite Element Problem.
 
-Then, it is recommendable to create the mesh first before run execution. 
+Due to the amount of data performed for discretisation, it is recommendable to create first, the mesh, before running the execution. 
 
 * *An MPI line command to split the mesh in MOOSE*
 
