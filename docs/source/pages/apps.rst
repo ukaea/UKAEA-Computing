@@ -9,14 +9,14 @@ Basically, there are two main steps to perfom them, one is the splitting part, a
 
 Then, it is recommendable to create the mesh first before run execution. 
 
-*An MPI line command to split the mesh in MOOSE*
+* *An MPI line command to split the mesh in MOOSE*
 
 .. code-block:: bash
  
         mpirun -n 8 -npernode 56 /home/ir-inca1/projects/pooka/pooka-opt  -i input.i  --split-mesh 112,224,336,448 --split-file hpcmesh5120.cpr >> ja_th_NE_mpi5120.out -log_view
 
 
-*An MPI script example to run input file of MOOSE ten times*
+* *An MPI script example to run input file of MOOSE ten times*
 
 .. code-block:: bash
 
