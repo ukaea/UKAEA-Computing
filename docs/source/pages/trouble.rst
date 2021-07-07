@@ -34,3 +34,10 @@ Support
 =======
 
 * Contact support@hpc.cam.ac.uk with the Subject **UKAEA - <myissue>** in case of issues.
+
+Contribute
+==========
+
+.. raw:: html
+
+   <img src="source/pages/git.png">
