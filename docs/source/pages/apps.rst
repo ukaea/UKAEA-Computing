@@ -56,3 +56,24 @@ Due to the amount of data performed for discretisation, it is recommendable to c
 
 NekRS-and-Nek5000
 =================
+
+The following configuration was done using the GPU nodes in CDS3: `ssh ir-inca1@login-gpu.hpc.cam.ac.uk`
+
+.. code-block:: bash
+
+   module purge
+   module load dot
+   module load slurm
+   module load rhel7/global
+   module load cmake/latest
+   module load rhel7/default-peta4
+   module load git-2.31.0-gcc-5.4.0-ec3ji34
+   module load python/3.8
+   module load gcc/7
+   module load openmpi-3.1.3-gcc-7.2.0-b5ihosk
+   module load cuda/9.2
+   module load nsight/systems-2020.3.1
+   export MPI_MCA_mca_base_component_show_load_errors=0
+   export PMIX_MCA_mca_base_component_show_load_errors=0
+   ulimit -n 65536
+   module list
