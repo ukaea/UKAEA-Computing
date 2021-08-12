@@ -3,9 +3,9 @@
 MOOSE
 =====
 
-MOOSE computationally solves PDEs by configuring the mesh of the domain, boundary conditions, variables and kernels and preconditioners in the input file.
+MOOSE computationally solves PDEs by configuring the mesh of the domain, boundary conditions, variables, kernels and preconditioners in the *input file*.
 
-Basically, there are two main steps to perfom them, one is the splitting part, and the other is the execution part to solve the Finite Element Problem.
+Basically, there are two main steps to perfom them, one is the splitting part, and the other is, the execution part to solve the PDE by using the Finite Element Method.
 
 Due to the amount of data performed for discretisation, it is recommendable to create first, the mesh, before running the execution. 
 
@@ -57,7 +57,7 @@ Due to the amount of data performed for discretisation, it is recommendable to c
 NekRS-and-Nek5000
 =================
 
-The following configuration was done using the GPU nodes in CDS3: `ssh ir-inca1@login-gpu.hpc.cam.ac.uk`
+The following configuration was done using the GPU nodes in CDS3: `ssh <my_user>@login-gpu.hpc.cam.ac.uk`
 
 .. code-block:: bash
 
