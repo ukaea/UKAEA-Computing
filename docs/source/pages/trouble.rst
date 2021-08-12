@@ -41,3 +41,7 @@ Contribute
 .. raw:: html
 
    <img src="source/pages/git.png">
+
+.. image:: /home/yulytas/Documents/Research/UKAEA-Computing/docs/source/pages/git.png
+   :with: 400
+   
